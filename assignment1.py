@@ -4,7 +4,7 @@
 
 int=1
 print("An example of a integer is: ",int)
-#An int (integer) is a whole number, that can be positive or negative, up to two billion.
+#An integer (int) is a whole number, that can be positive or negative, up to two billion.
 
 float=2.57
 print("An example of a float is: ",float)
@@ -13,11 +13,12 @@ print("An example of a float is: ",float)
 
 char="A"
 print("An example of a char is: ",char)
-#A char is a single character. It can be a letter (ex. A), number (ex. 1), or symbol (ex. !)
+#A char is a single character. It can be a letter (ex. A), number (ex. 1), or symbol (ex. !).
 
 booleans=True
 print("An example of boolean is: ",booleans)
-#A boolean is 
+#Booleans can have two possible values, usually shown as "true" or "false".
 
 str="hello world!"
 print("An example of a string is: ",str)
+#A string (str) is multiple characters put together within quotation marks.
