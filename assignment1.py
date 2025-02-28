@@ -2,6 +2,8 @@
 #Date Modified: 25/02/25
 #Description: 
 
+import math
+
 #The following are different types of variables.
 
 int=1
@@ -51,7 +53,27 @@ nth_power=3**4
 print("An example of an exponent is 3 ** 4 =",nth_power)
 #power of...
 
-
+square=math.sqrt(16)
+print("An example of square root is 16sqrt = ",square)
 #square root
 
+rem=24%5
+print("An example of modulus is 24 % 5 =",rem)
 #modulus
+
+#The following finds the discriminant
+
+a=float(input("Enter a then press enter:"))
+b=float(input("Enter b then press enter:"))
+c=float(input("Enter c then press enter:"))
+
+print(delta=b**2-4*a*c)
+
+#print
+#print("Enter b then press enter:")
+#print("enter c then press enter:")
+
+#delta=b**2-4*a*c
+
+#print(delta)
+# a=4 b=2 c=5
