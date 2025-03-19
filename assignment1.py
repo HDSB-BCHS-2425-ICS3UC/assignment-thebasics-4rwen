@@ -1,17 +1,17 @@
 #Author: Arwen Murphy
-#Date Modified: 25/02/25
+#Date Modified: March 19th, 2025
 #Description: 
 
 import math
 
 #The following are different types of variables.
 
-int=1
-print("An example of a integer is: ",int)
+integer=1
+print("An example of a integer is: ",integer)
 #An integer (int) is a whole number, that can be positive or negative, up to two billion.
 
-float=2.57
-print("An example of a float is: ",float)
+floats=2.57
+print("An example of a float is: ",floats)
 #A float is any number with a decimal. 
 #Doubles are similar to floats, but can only have one character after the decimal. (ex. 2.5)
 
@@ -54,7 +54,7 @@ print("An example of an exponent is 3 ** 4 =",nth_power)
 #power of...
 
 square=math.sqrt(16)
-print("An example of square root is 16sqrt = ",square)
+print("An example of square root is 16sqrt =",square)
 #square root
 
 rem=24%5
@@ -63,17 +63,13 @@ print("An example of modulus is 24 % 5 =",rem)
 
 #The following finds the discriminant
 
-a=float(input("Enter a then press enter:"))
-b=float(input("Enter b then press enter:"))
-c=float(input("Enter c then press enter:"))
+a=int(input("Enter a then press enter:"))
+b=int(input("Enter b then press enter:"))
+c=int(input("Enter c then press enter:"))
 
-print(delta=b**2-4*a*c)
+print("The discriminant of",a,",",b,", and",c,"is",b**2-4*a*c)
 
-#print
-#print("Enter b then press enter:")
-#print("enter c then press enter:")
+#Find the volume of a cube
 
-#delta=b**2-4*a*c
-
-#print(delta)
-# a=4 b=2 c=5
+A=int(input("Enter the length of one edge: "))
+print("The area of the cube is",A**3,".")
